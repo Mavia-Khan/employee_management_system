@@ -1,0 +1,29 @@
+INFO 2024-12-26 09:05:15 autoreload Watching for file changes with StatReloader
+INFO 2024-12-26 09:05:45 autoreload /home/ifrasaleem/Documents/employee_management_system/employee_management_system/settings.py changed, reloading.
+INFO 2024-12-26 09:05:45 autoreload Watching for file changes with StatReloader
+INFO 2024-12-26 09:06:31 autoreload /home/ifrasaleem/Documents/employee_management_system/employee_management_system/settings.py changed, reloading.
+INFO 2024-12-26 09:06:31 autoreload Watching for file changes with StatReloader
+INFO 2024-12-26 09:07:02 autoreload /home/ifrasaleem/Documents/employee_management_system/authentication/views.py changed, reloading.
+INFO 2024-12-26 09:07:02 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 16:35:03 autoreload Watching for file changes with StatReloader
+INFO 2024-12-28 16:40:02 basehttp "POST /auth/users/ HTTP/1.1" 200 248
+INFO 2024-12-28 16:41:56 basehttp "POST /auth/login/ HTTP/1.1" 200 310
+INFO 2024-12-28 16:42:54 basehttp "POST /departments/ HTTP/1.1" 200 166
+INFO 2024-12-28 16:43:08 basehttp "GET /departments/ HTTP/1.1" 200 169
+INFO 2024-12-28 16:45:40 basehttp "POST /employees/ HTTP/1.1" 200 535
+INFO 2024-12-28 16:48:47 basehttp "GET /employees/salaries/ HTTP/1.1" 200 680
+INFO 2024-12-28 16:50:04 basehttp "POST /auth/login/ HTTP/1.1" 200 324
+WARNING 2024-12-28 16:51:19 log Forbidden: /employees/salaries/
+WARNING 2024-12-28 16:51:19 basehttp "GET /employees/salaries/ HTTP/1.1" 403 102
+INFO 2024-12-28 17:01:23 basehttp "GET /auth/permissions/ HTTP/1.1" 200 457
+WARNING 2024-12-28 17:02:22 log Not Found: /employees/4/
+WARNING 2024-12-28 17:02:22 basehttp "PATCH /employees/4/ HTTP/1.1" 404 88
+WARNING 2024-12-28 17:02:34 log Bad Request: /employees/1/
+WARNING 2024-12-28 17:02:34 basehttp "PATCH /employees/1/ HTTP/1.1" 400 113
+WARNING 2024-12-28 17:02:41 log Bad Request: /employees/1/
+WARNING 2024-12-28 17:02:41 basehttp "PATCH /employees/1/ HTTP/1.1" 400 113
+WARNING 2024-12-28 17:04:37 log Bad Request: /departments/
+WARNING 2024-12-28 17:04:37 basehttp "POST /departments/ HTTP/1.1" 400 95
+INFO 2024-12-28 17:04:57 basehttp "POST /departments/ HTTP/1.1" 200 161
+INFO 2024-12-28 17:07:15 basehttp "POST /employees/ HTTP/1.1" 200 520
+INFO 2024-12-28 17:09:33 basehttp "GET /auth/permissions/ HTTP/1.1" 200 457
